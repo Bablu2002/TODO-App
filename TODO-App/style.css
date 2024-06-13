@@ -1,0 +1,120 @@
+body {
+    background-image: url(fog.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1 {
+    font-size: 50px;
+    /* color: blueviolet;  */
+    margin: 0%;
+}
+h2 {
+    font-size: 40px;
+    margin: 0%;
+}
+section {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#container{
+    border: 2px solid gray;
+    padding: 10px;
+    width: 580px;
+    height: auto;
+    padding: 30px;
+    background: transparent;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+}
+li {
+    background-color:white;
+    position: relative;
+    font-size: 22px;
+    padding: 16px;
+    margin: 8px 8px;
+    list-style-type: checkbox;
+    border-radius:8px;
+    text-align: justify;
+    display: flex;
+    gap: 8px;
+  
+}
+#todo-list{
+    padding: 0%;
+    margin: auto;
+    max-height: 500px;
+    overflow: overlay;
+}
+button {
+    font-size: 22px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    background: white;
+  }
+#todo-item {
+    font-size: 22px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.material-symbols-outlined {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+
+#completed-container {
+    margin: 15px;
+}
+#completed-list {
+    padding: 0%;
+    margin: auto;
+}
+#completed-list i {
+    background-color: white;
+    font-size: 22px;
+    padding: 16px;
+    margin: 8px 8px;
+    list-style-type: checkbox;
+    border-radius: 8px;
+    text-align: justify;
+    display: flex;
+    gap: 8px;
+}
+#add-item,#show-daily,#show-completed,#remove {
+    background-color:transparent;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    color: white;
+}
+#todo-list li {
+    border-radius: 8px;
+}
+#todo-item:hover {
+    background-color: #fff;
+}
+#add-item:hover {
+    background-color: white;
+    color: #606e92;
+}
+#show-daily:hover {
+    background-color: white;
+    color: #606e92;
+}
+#show-completed:hover {
+    background-color: white;
+    color: #606e92;
+}
+#remove:hover{
+    background-color: white;
+    color: #606e92;
+}
+
