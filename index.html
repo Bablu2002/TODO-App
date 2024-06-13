@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> To-Do List </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <section>
+            <div id="container">
+                    <h1> Todo App </h1>
+                    <div id="input-and-add">
+                    <input id="todo-item" type="text" placeholder="Enter TODO List here...">
+                    <button id="add-item">Add Item </button>
+                    </div>
+                <div id="filters">
+                    <button id="show-daily">Daily Task</button>
+                    <button id="show-completed">Completed Task</button>
+                    <button id="remove">Delete All</button>
+                </div>
+                <div id="todo-container">
+                    <ul id="todo-list"> 
+                        <!-- <li id="item1"><input type="checkbox">work out for 30 min<span class="material-symbols-outlined">delete</span></li>
+                        <li id="item2"><input type="checkbox">wake up early in the morning<span class="material-symbols-outlined">delete</span></li> -->
+                    </ul>
+                </div>
+                <div id="completed-container" style="display: none;">
+                    <h2> Completed Task </h2>
+                    <ul id="completed-list">
+                    </ul>
+                </div>
+            
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
